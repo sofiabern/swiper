@@ -4,10 +4,76 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Swiper</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <section class="projects" id="projects">
+      <div class="wrapper-projects">
+        <h2 class="title-projects">Projects</h2>
+        <!-- Swiper -->
+        <div class="swiper">
+          <!-- Slides list -->
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="white-projects">
+                <ul class="tech-list-projects">
+                  <li class="tech-item-projects">&#35;react</li>
+                  <li class="tech-item-projects">&#35;js</li>
+                  <li class="tech-item-projects">&#35;node js</li>
+                  <li class="tech-item-projects">&#35;git</li>
+                </ul>
+                <h3 class="swiper-title-projects">
+                  Programming Across Borders: Ideas, Technologies, Innovations
+                </h3>
+                <a
+                  class="link-projects"
+                  href="https://github.com/Artekme/project-ScriptTailors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >See project</a
+                >
+              </div>
+              <div class="black-projects">
+                <div class="img-thumb-projects"></div>
+                <picture>
+                  <!-- Десктопна версія -->
+                  <source srcset="./img/webp/img_1_614w.webp 1x, ./img/webp/img_1_1228w.webp 2x"
+                          media="(min-width: 768px)">
+                  <!-- Мобільна версія -->
+                  <source srcset="./img/webp/img_1_311w.webp 1x, ./img/webp/img_1_622w.webp 2x">
+                  <img src="./img/webp/img_1_830w.webp" alt="Green.Harvest web-site">
+                </picture>
+              </div>
+            </li>
+          </ul>
+          <!-- Buttons -->
+          <div class="buttons-wrapper-projects">
+            <button class="swiper-button-prev">
+              <svg width="32px" height="32px" aria-label="icon to swipe left">
+                <use href="./img/symbol-defs.svg#arrow-narrow-left"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next">
+              <svg width="32px" height="32px" aria-label="icon to swipe right">
+                <use href="./img/symbol-defs.svg#arrow-narrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
+
