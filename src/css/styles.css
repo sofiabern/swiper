@@ -169,6 +169,12 @@ body {
   display: inline-block;
   border-radius: 60px;
   background: rgb(237, 59, 68);
+  transition: background-color 200ms ease-in-out;
+}
+
+.link-projects:hover,
+.link-projects:active{
+  background: rgb(224, 55, 63);
 }
 
 @media screen and (max-width: 767.9px) {
@@ -233,6 +239,7 @@ body {
   border: 1px solid rgb(59, 59, 59);
   border-radius: 50%;
   background-color: transparent;
+  transition: border-color 200ms ease-in-out;
 }
 
 .swiper-button-prev:hover,
@@ -263,6 +270,7 @@ body {
 .left-arrow-icon-projects,
 .right-arrow-icon-projects {
   stroke: rgb(59, 59, 59);
+  transition: stroke 200ms ease-in-out;
 }
 
 .swiper-button-prev:hover .left-arrow-icon-projects ,
