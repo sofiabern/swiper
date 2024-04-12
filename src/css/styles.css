@@ -10,6 +10,7 @@ body {
   background-color: #1c1d20;
   color: rgb(28, 29, 32);
   font-family: Inter Tight;
+  margin: 0px;
 }
 
 
@@ -47,7 +48,6 @@ body {
     padding: 0 32px;
   }
 }
-
 
 @media screen and (max-width: 767.9px) {
   .swiper-wrapper {

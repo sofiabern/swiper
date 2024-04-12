@@ -15,8 +15,7 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
   
-
-
+  
 mousewheel: {
   invert: true,
 },
