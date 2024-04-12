@@ -1,6 +1,6 @@
 // import Swiper JS
 import Swiper from 'swiper';
-import { Navigation, Keyboard, Mousewheel  } from 'swiper/modules';
+import { Navigation, Keyboard, Mousewheel} from 'swiper/modules';
 // import Swiper styles
 import 'swiper/css';
 
@@ -24,7 +24,6 @@ mousewheel: {
   keyboard: {
     enabled: true,
     onlyInViewport: true,
-    pageUpDown: true
 },
 
 });
